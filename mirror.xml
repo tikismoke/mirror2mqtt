@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags>
+    <rfid id="000004046b4c1a00000000000000">
+	<descriptif>Voiture</descriptif>
+	<etat>actif</etat>
+	<action>pose</action>
+	<url><![CDATA[ http://something/rest/cmd/id/90?value=0]]></url>
+	<commentaire>Arrivée</commentaire>
+    </rfid>
+    <rfid id="00000404eba0ca00000000000000">
+	<descriptif>mickey</descriptif>
+	<etat>actif</etat>
+	<action>pose</action>
+	<url><![CDATA[http://something/rest/cmd/id/93?value=0]]></url>
+	<commentaire>Depart</commentaire>
+    </rfid>
+</tags>
