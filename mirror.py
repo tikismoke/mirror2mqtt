@@ -6,7 +6,7 @@ import base64
 import paho.mqtt.client as paho
 
 broker = "YOUR BROKER IP or ADDRESS"
-port = YOUR BROKER Port 883
+port = YOUR BROKER Port 1883
 def on_publish(client,userdata,result):             #create function for callback
     print("data published \n")
     pass
