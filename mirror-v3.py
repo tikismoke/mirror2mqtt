@@ -5,12 +5,12 @@ import binascii #pour convertir l'hexa en string
 import base64
 import paho.mqtt.client as paho
 
-broker = "mosquito.poudot.fr"
+broker = "YOUR BROKER IP"
 port = 1883
 def on_publish(client,userdata,result):             #create function for callback
     print("data published \n")
     pass
-client1= paho.Client("mirror2mqtt-nuc")                           #create client object
+client1= paho.Client("mirror2mqtt")                           #create client object
 #client1.on_publish = on_publish                          #assign function to callback
 client1.connect(broker,port)                                 #establish connection
 client1.loop_start()
